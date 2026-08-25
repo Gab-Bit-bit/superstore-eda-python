@@ -1,19 +1,37 @@
-📊 Análise de Vendas - SuperStore
+📊 Análise de Vendas — SuperStore
 
-Projeto de análise exploratória de dados (EDA) desenvolvido para praticar o fluxo completo de uma análise: levantamento de dados, limpeza e tratamento, exploração e visualização de insights, com um dashboard interativo ao final.
+Projeto de Análise Exploratória de Dados (EDA) desenvolvido em Python com o objetivo de praticar o fluxo completo de uma análise de dados: levantamento, limpeza e tratamento, exploração, visualização de insights e criação de um dashboard interativo.
 
-Dataset de prática (SuperStore), com mais de 51 mil pedidos de vendas, contendo informações de clientes, produtos, categorias, localização, vendas, lucro e descontos.
+O dataset utilizado possui 51.290 registros de vendas, contendo informações sobre clientes, produtos, categorias, localização, vendas, lucro, descontos e custos de envio.
 
 🖥️ Dashboard
-![Screenshot do dashboard](dashboard.png)
 
-🔎 Principais insights
-Desconto x Lucro: a partir de 20% de desconto, o lucro médio por pedido fica negativo. Isso afeta cerca de 31,8% dos pedidos da base, gerando um prejuízo total de aproximadamente -$696 mil.
-Os pedidos sem desconto ou com desconto até 10% concentram a maior parte do lucro da empresa.
-Categoria e região também influenciam bastante o lucro — nem sempre quem vende mais é quem dá mais lucro.
-🛠️ Tecnologias utilizadas
-Python
-Pandas
-Matplotlib
-Seaborn
-Streamlit (dashboard interativo)
+![Dashboard da Análise de Vendas](Dashboard.png)
+
+O dashboard apresenta uma visão geral dos principais resultados encontrados durante a análise.
+
+🎯 Objetivos do projeto
+
+- Realizar o entendimento inicial da base;
+- Verificar valores nulos, duplicados e possíveis inconsistências;
+- Corrigir tipos de dados;
+- Analisar vendas por segmento, país, estado, região, categoria e subcategoria;
+- Avaliar a evolução das vendas e do lucro ao longo do tempo;
+- Investigar a relação entre vendas, lucro e descontos;
+- Criar visualizações para facilitar a interpretação dos dados;
+- Desenvolver um dashboard com Streamlit.
+
+🔎 Principais análises
+
+Vendas por segmento;
+- Top 5 países em vendas;
+- Top 5 estados em vendas;
+- Vendas por região;
+- Vendas por categoria;
+- Vendas por subcategoria;
+- Evolução das vendas por ano;
+- Evolução do lucro por ano;
+- Correlação entre vendas e lucro;
+- Correlação entre desconto e lucro;
+- Lucro por subcategoria;
+- Impacto das faixas de desconto no lucro.
